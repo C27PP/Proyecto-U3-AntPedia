@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 oct 2026, 10:40:27 p.m.
+    Author     : Cristian Jesús Cruz Mendívil ID:267652
+*/
+
+body{
+    background-color: #008000;
+}
+
+div{
+    margin: 20px;
+}
+.hormigas-container{
+    width: 80vw;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1rem;
+}
+.hormiga{
+    background-color: mintcream;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px;
+    padding:0.5rem;
+}
+.hormiga p{
+    text-align: center;
+}
+.hormiga img{
+    width: 150px;
+    height: 100px;
+}
+hormiga div{
+    margin:1rem;
+    display:flex;
+    gap:0.5rem;
+    flex-direction: column;
+    max-width: 50vw;
+}
+
+label{
+    font-family: "arial"
+}
+
+input{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 13px;
+    border:none;
+    outline: none;
+}
